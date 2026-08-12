@@ -2,6 +2,8 @@
 
 Cross-platform Streamlit app for watermark-optional PDF protection.
 
+🔗 **Live demo:** [isro-22-protectpdf-app-3h0fyi.streamlit.app](https://isro-22-protectpdf-app-3h0fyi.streamlit.app/)
+
 ## Features
 
 - Optional diagonal watermark with opacity, size and rotation.
