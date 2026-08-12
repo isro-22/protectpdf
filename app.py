@@ -4,8 +4,8 @@ from core.models import ProtectionConfig, PrintMode, WatermarkConfig
 from core.protect import protect_pdf
 from core.validator import validate_pdf
 
-st.set_page_config(page_title="PDF DRM Protector", page_icon="🔐", layout="wide")
-st.title("🔐 PDF DRM Protector")
+st.set_page_config(page_title="PDF Protector", page_icon="🔐", layout="wide")
+st.title("🔐 PDF Protector")
 st.caption("Cross-platform PDF protection for macOS and Windows")
 
 uploaded = st.file_uploader("Upload PDF", type=["pdf"])
@@ -62,3 +62,6 @@ if uploaded:
         st.download_button("⬇️ Download protected PDF",st.session_state["result"],file_name=f"{uploaded.name.rsplit(".",1)[0]}_protected.pdf",mime="application/pdf")
 else:
     st.info("Upload a PDF to begin.")
+
+st.divider()
+st.caption("© 2026 Muhammad Isro. Built by Muhammad Isro.")

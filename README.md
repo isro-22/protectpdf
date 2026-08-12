@@ -1,4 +1,4 @@
-# PDF DRM Protector
+# PDF Protector
 
 Cross-platform Streamlit app for watermark-optional PDF protection.
 
@@ -52,3 +52,7 @@ pytest -q
 ## Manual compatibility test
 
 For the experimental print-blank mode, open the generated PDF in Adobe Acrobat/Reader, macOS Preview, Chrome, and Edge where available. Compare the on-screen view with the result of printing/saving through each viewer's PDF workflow. The automated validator only proves the PDF structure and permissions, not universal printer behavior.
+
+## Copyright
+
+© 2026 Muhammad Isro. Built by Muhammad Isro.
