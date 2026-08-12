@@ -55,4 +55,8 @@ For the experimental print-blank mode, open the generated PDF in Adobe Acrobat/R
 
 ## Copyright
 
-© 2026 Muhammad Isro. Built by Muhammad Isro.
+**PDF Protector** — Cross-platform PDF protection and watermarking tool.
+
+Developed and maintained by **Muhammad Isro**.
+
+© 2026 Muhammad Isro. All rights reserved.

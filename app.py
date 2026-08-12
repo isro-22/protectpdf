@@ -64,4 +64,13 @@ else:
     st.info("Upload a PDF to begin.")
 
 st.divider()
-st.caption("© 2026 Muhammad Isro. Built by Muhammad Isro.")
+st.markdown(
+    """
+    <div style="text-align:center; opacity:0.7; font-size:0.85rem; line-height:1.6;">
+        <strong>PDF Protector</strong> — Cross-platform PDF protection and watermarking tool<br>
+        Developed and maintained by <strong>Muhammad Isro</strong><br>
+        © 2026 Muhammad Isro. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
